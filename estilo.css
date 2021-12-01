@@ -1,0 +1,99 @@
+body {
+    float: left;
+    background: #272727;
+    color: white;
+    font-family: 'Time New Roman', 'Arial Narrow', Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.2;
+    background:#272727;
+    color: azure;
+    text-shadow: white;
+}
+
+.parent{
+    float: left;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+  
+ .contenedorPrincipalIzquierdo{
+        width: 30px;
+        height: 30px;
+        float: left;
+        text-align: justify;
+        display: block;
+        align-items: left;
+        justify-content: center;
+        padding: 0px 0px 0px 0px;
+
+}
+}
+
+#main-container{
+    float: left;
+    margin:400px;
+    width: 400px;
+}
+
+table{
+    float: left;
+    background-color: white;
+    text-align: left;
+    border-collapse: collapse;
+    width: 50%;
+    height: 50%;
+}
+
+th, td {
+    padding: 6px;
+}
+
+thead{
+    background-color: green;
+    border-bottom: solid 2px #0F362D;
+    color: white;
+}
+
+tr:nth-child(even){
+    background-color:#ddd;
+
+}
+
+tr:hover td{
+    
+     background-color: #369681;
+     color: white;
+}
+
+/*#derecha {
+    float: left;
+    padding: 20px;
+    background: blue;
+    border-collapse: collapse;
+}    */
+
+#izquierda{
+    float: left;
+}
+img:hover{
+     transform: scale(1.1);
+}
+
+td{
+    text-align: center;
+    color:black
+}
+
+h1{
+    text-align: center;
+}
+
+p{
+    text-align: center;
+}
+
+.contenido{
+    float: left;
+}
